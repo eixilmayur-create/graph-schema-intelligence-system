@@ -1,0 +1,139 @@
+{
+  "ontology_name": "GSIS Enterprise Organization Ontology",
+  "version": "1.0.0",
+  "departments": [
+    {
+      "concept_id": "D001",
+      "canonical_label": "Engineering",
+      "aliases": [
+        "Engineering",
+        "Engg",
+        "ENG",
+        "Engineerng",
+        "Software Engineering",
+        "Tech Engineering"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D002",
+      "canonical_label": "Data & Analytics",
+      "aliases": [
+        "Data & Analytics",
+        "Data Analytics",
+        "Analytics",
+        "D&A",
+        "Data and Analytics",
+        "Data Analytcs"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D003",
+      "canonical_label": "Human Resources",
+      "aliases": [
+        "Human Resources",
+        "HR",
+        "People Ops",
+        "Human Resource",
+        "H.R.",
+        "People Operations"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D004",
+      "canonical_label": "Finance",
+      "aliases": [
+        "Finance",
+        "Fin",
+        "Finance Dept",
+        "Accounting & Finance",
+        "Finanace"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D005",
+      "canonical_label": "Sales",
+      "aliases": [
+        "Sales",
+        "Sales Dept",
+        "Business Sales",
+        "SLS",
+        "Saless"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D006",
+      "canonical_label": "Marketing",
+      "aliases": [
+        "Marketing",
+        "Mktg",
+        "Brand Marketing",
+        "Marketng",
+        "Growth Marketing"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D007",
+      "canonical_label": "Operations",
+      "aliases": [
+        "Operations",
+        "Ops",
+        "Business Operations",
+        "Operation",
+        "Operatons"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D008",
+      "canonical_label": "Customer Support",
+      "aliases": [
+        "Customer Support",
+        "Support",
+        "Customer Service",
+        "CS",
+        "Cust Support"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D009",
+      "canonical_label": "Legal & Compliance",
+      "aliases": [
+        "Legal & Compliance",
+        "Legal",
+        "Compliance",
+        "L&C",
+        "Legal Compliance"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    },
+    {
+      "concept_id": "D010",
+      "canonical_label": "Product Management",
+      "aliases": [
+        "Product Management",
+        "Product",
+        "PM",
+        "Product Mgmt",
+        "Prod Management"
+      ],
+      "entity_type": "Department",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+@prefix ex: <http://example.org/gsis/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:EmployeeShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Employee ;
+
+    sh:property [
+        sh:path ex:employeeId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 1 ;
+        sh:message "Employee must have exactly one non-empty employeeId." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:fullName ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 1 ;
+        sh:message "Employee must have a non-empty fullName." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:worksIn ;
+        sh:maxCount 1 ;
+        sh:class ex:Department ;
+        sh:message "worksIn must point to a Department." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:reportsTo ;
+        sh:class ex:Employee ;
+        sh:message "reportsTo must point to an Employee." ;
+    ] ;
+
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Employee cannot report to itself." ;
+        sh:select """
+            SELECT $this
+            WHERE {
+                $this ex:reportsTo $this .
+            }
+        """ ;
+    ] .
