@@ -630,7 +630,7 @@ This allows GSIS to demonstrate realistic semantic validation and routing behavi
 
 ---
 
-## Interview Summary
+## Project Summary
 
 A concise explanation:
 
