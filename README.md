@@ -638,16 +638,6 @@ A concise explanation:
 
 ---
 
-## Portfolio / Data Disclaimer
-
-This repository is a learning and portfolio implementation.
-
-All employee and organizational records are synthetic.
-
-No proprietary employer data, production schemas, confidential mappings, API keys, passwords, or customer information should be committed to this repository.
-
----
-
 ## Future Enhancements
 
 - Vertex AI Embeddings
